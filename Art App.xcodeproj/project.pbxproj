@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461CE6E02D490CEB006EE0FD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CE6DF2D490CEB006EE0FD /* DetailViewController.swift */; };
+		461CE6E42D4D5442006EE0FD /* WorksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CE6E32D4D5442006EE0FD /* WorksCell.swift */; };
 		46BE505E2C99B19600B179A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE505D2C99B19600B179A2 /* AppDelegate.swift */; };
 		46BE50602C99B19600B179A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE505F2C99B19600B179A2 /* SceneDelegate.swift */; };
 		46BE50622C99B19600B179A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE50612C99B19600B179A2 /* ViewController.swift */; };
-		46BE50652C99B19600B179A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BE50632C99B19600B179A2 /* Main.storyboard */; };
 		46BE50672C99B19700B179A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BE50662C99B19700B179A2 /* Assets.xcassets */; };
 		46BE506A2C99B19700B179A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BE50682C99B19700B179A2 /* LaunchScreen.storyboard */; };
+		46C60B062CA1BE7000DC6819 /* DetailWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C60B052CA1BE7000DC6819 /* DetailWorksViewController.swift */; };
+		46F853A02C9C741A000045BC /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8539F2C9C741A000045BC /* ArtistModel.swift */; };
+		46F853A32C9C9F0B000045BC /* ArtistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F853A22C9C9F0B000045BC /* ArtistManager.swift */; };
+		46F853A52C9CAEED000045BC /* artistJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F853A42C9CAEED000045BC /* artistJson.json */; };
+		46F853A92C9F6DDD000045BC /* ArtistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F853A82C9F6DDD000045BC /* ArtistCell.swift */; };
+		77DB10788980C713E1811A50 /* Pods_Art_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41869A36487D8027C624DFB8 /* Pods_Art_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41869A36487D8027C624DFB8 /* Pods_Art_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Art_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		461CE6DF2D490CEB006EE0FD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		461CE6E32D4D5442006EE0FD /* WorksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksCell.swift; sourceTree = "<group>"; };
 		46BE505A2C99B19600B179A2 /* Art App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Art App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BE505D2C99B19600B179A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46BE505F2C99B19600B179A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		46BE50612C99B19600B179A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46BE50642C99B19600B179A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46BE50662C99B19700B179A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46BE50692C99B19700B179A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46BE506B2C99B19700B179A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46C60B052CA1BE7000DC6819 /* DetailWorksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWorksViewController.swift; sourceTree = "<group>"; };
+		46F8539F2C9C741A000045BC /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+		46F853A22C9C9F0B000045BC /* ArtistManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistManager.swift; sourceTree = "<group>"; };
+		46F853A42C9CAEED000045BC /* artistJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artistJson.json; sourceTree = "<group>"; };
+		46F853A82C9F6DDD000045BC /* ArtistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCell.swift; sourceTree = "<group>"; };
+		9071BE0D131CA60B209F3E40 /* Pods-Art App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Art App.debug.xcconfig"; path = "Target Support Files/Pods-Art App/Pods-Art App.debug.xcconfig"; sourceTree = "<group>"; };
+		9D543D7E1AB7FB782E86F430 /* Pods-Art App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Art App.release.xcconfig"; path = "Target Support Files/Pods-Art App/Pods-Art App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77DB10788980C713E1811A50 /* Pods_Art_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				46BE505C2C99B19600B179A2 /* Art App */,
 				46BE505B2C99B19600B179A2 /* Products */,
+				BA35E3E1852F2BA08B6858D1 /* Pods */,
+				8239D7CDAA51E067B64F12C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +77,68 @@
 			children = (
 				46BE505D2C99B19600B179A2 /* AppDelegate.swift */,
 				46BE505F2C99B19600B179A2 /* SceneDelegate.swift */,
-				46BE50612C99B19600B179A2 /* ViewController.swift */,
-				46BE50632C99B19600B179A2 /* Main.storyboard */,
+				46F853A72C9CB3A7000045BC /* Manager */,
+				46F853A12C9C7420000045BC /* Model */,
+				46BE50722C99B61900B179A2 /* Controllers */,
 				46BE50662C99B19700B179A2 /* Assets.xcassets */,
+				46F853A62C9CB17A000045BC /* resource */,
 				46BE50682C99B19700B179A2 /* LaunchScreen.storyboard */,
 				46BE506B2C99B19700B179A2 /* Info.plist */,
 			);
 			path = "Art App";
+			sourceTree = "<group>";
+		};
+		46BE50722C99B61900B179A2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				46BE50612C99B19600B179A2 /* ViewController.swift */,
+				46C60B052CA1BE7000DC6819 /* DetailWorksViewController.swift */,
+				461CE6DF2D490CEB006EE0FD /* DetailViewController.swift */,
+				46F853A82C9F6DDD000045BC /* ArtistCell.swift */,
+				461CE6E32D4D5442006EE0FD /* WorksCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		46F853A12C9C7420000045BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46F8539F2C9C741A000045BC /* ArtistModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46F853A62C9CB17A000045BC /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				46F853A42C9CAEED000045BC /* artistJson.json */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		46F853A72C9CB3A7000045BC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				46F853A22C9C9F0B000045BC /* ArtistManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8239D7CDAA51E067B64F12C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41869A36487D8027C624DFB8 /* Pods_Art_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA35E3E1852F2BA08B6858D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9071BE0D131CA60B209F3E40 /* Pods-Art App.debug.xcconfig */,
+				9D543D7E1AB7FB782E86F430 /* Pods-Art App.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46BE506E2C99B19700B179A2 /* Build configuration list for PBXNativeTarget "Art App" */;
 			buildPhases = (
+				65A068D301E57DF65924FB4D /* [CP] Check Pods Manifest.lock */,
 				46BE50562C99B19600B179A2 /* Sources */,
 				46BE50572C99B19600B179A2 /* Frameworks */,
 				46BE50582C99B19600B179A2 /* Resources */,
+				8895D306BFCF49831901F2A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +202,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				46BE506A2C99B19700B179A2 /* LaunchScreen.storyboard in Resources */,
+				46F853A52C9CAEED000045BC /* artistJson.json in Resources */,
 				46BE50672C99B19700B179A2 /* Assets.xcassets in Resources */,
-				46BE50652C99B19600B179A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65A068D301E57DF65924FB4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Art App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8895D306BFCF49831901F2A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Art App/Pods-Art App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Art App/Pods-Art App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Art App/Pods-Art App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46BE50562C99B19600B179A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46F853A02C9C741A000045BC /* ArtistModel.swift in Sources */,
+				461CE6E42D4D5442006EE0FD /* WorksCell.swift in Sources */,
 				46BE50622C99B19600B179A2 /* ViewController.swift in Sources */,
+				46F853A92C9F6DDD000045BC /* ArtistCell.swift in Sources */,
+				46F853A32C9C9F0B000045BC /* ArtistManager.swift in Sources */,
 				46BE505E2C99B19600B179A2 /* AppDelegate.swift in Sources */,
 				46BE50602C99B19600B179A2 /* SceneDelegate.swift in Sources */,
+				46C60B062CA1BE7000DC6819 /* DetailWorksViewController.swift in Sources */,
+				461CE6E02D490CEB006EE0FD /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		46BE50632C99B19600B179A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46BE50642C99B19600B179A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		46BE50682C99B19700B179A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,17 +403,18 @@
 		};
 		46BE506F2C99B19700B179A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9071BE0D131CA60B209F3E40 /* Pods-Art App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TLSFRK3N4G;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Art App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,17 +432,18 @@
 		};
 		46BE50702C99B19700B179A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D543D7E1AB7FB782E86F430 /* Pods-Art App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TLSFRK3N4G;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Art App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

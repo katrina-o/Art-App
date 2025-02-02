@@ -8,12 +8,22 @@
 import Foundation
 
 
-struct ArtistManager {
+
+ struct ArtistManager {
+
+     var artist: ArtistModel = ArtistModel(artists: [])
     
-    guard let path = Bundle.main.path(forResource: "artistJson", ofType: "json") else { return }
-    do { let data = try Data(contentsOf: path)
-        let result = try JSONDecoder().decode([ArtistModel].self, from: data)
-       } catch {
-        print(error)
+     mutating func fetchData() {
+        guard let fileLocation = Bundle.main.url(forResource: "artistJson", withExtension: "json") else { return }
+        do {
+            let data = try Data(contentsOf: fileLocation)
+            let receivedData = try JSONDecoder().decode(ArtistModel.self, from: data)
+            
+            self.artist = receivedData                        
+            
+        } catch {
+            print(error)
+        }
     }
+   
 }
